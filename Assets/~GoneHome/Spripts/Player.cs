@@ -1,18 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+[] - Brackets
+{} - Braces
+() - Prenthesis
+clean code = CTRL + K + D
+Fold code =  CTRL + M + O
+Unfold code = CTRL + M + P
+*/
+public class Player : MonoBehaviour
+{
+    public string message = "hello world";
+    public Rigidbody rigid;
 
-public class Player : MonoBehaviour {
+    float speed = 5;
 
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start()
     {
-		print("hello World lol")
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        
+    }
+
+    // Update is called once per frame
+    void Update()
     {
-		
-	}
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            rigid.AddForce(Vector3.forward * speed);
+        }
+            
+    }
+
 }
