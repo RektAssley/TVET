@@ -96,6 +96,9 @@
     <Compile Include="Assets\`Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\`Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\`Asteroids\Scripts\Shooting.cs" />
+    <Compile Include="Assets\~Breakout\Scripts\Ball.cs" />
+    <Compile Include="Assets\~Breakout\Scripts\Helpers\KeepWithinScreen.cs" />
+    <Compile Include="Assets\~Breakout\Scripts\Paddle.cs" />
     <Compile Include="Assets\~GoneHome\Spripts\Player.cs" />
   </ItemGroup>
   <ItemGroup>
