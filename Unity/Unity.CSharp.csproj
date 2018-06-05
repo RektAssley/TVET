@@ -96,12 +96,15 @@
     <Compile Include="Assets\~Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Shooting.cs" />
+    <Compile Include="Assets\~BobsMarvellousAdventure\Scripts\Bob.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Ball.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Helpers\KeepWithinScreen.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Paddle.cs" />
     <Compile Include="Assets\~GoneHome\Spripts\Player.cs" />
     <Compile Include="Assets\~Minesweeper\Scripts\Grid.cs" />
     <Compile Include="Assets\~Minesweeper\Scripts\Tile.cs" />
+    <Compile Include="Assets\~NonMannyLesson\Scripts\detect.cs" />
+    <Compile Include="Assets\~NonMannyLesson\Scripts\interact.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tiled2Unity\Imported\Level_01.tiled2unity.xml" />
