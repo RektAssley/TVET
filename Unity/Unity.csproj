@@ -76,6 +76,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
@@ -94,16 +95,20 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
-    <Compile Include="Assets\~2dExampleGame\Scripts\BobMovement.cs" />
+    <Compile Include="Assets\~2dExampleGame\Scripts\Bob.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Shooting.cs" />
+    <Compile Include="Assets\~BobsMarvellousAdventure\Scripts\Bob.cs" />
+    <Compile Include="Assets\~BobsMarvellousAdventure\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Ball.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Helpers\KeepWithinScreen.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Paddle.cs" />
     <Compile Include="Assets\~GoneHome\Spripts\Player.cs" />
     <Compile Include="Assets\~Minesweeper\Scripts\Grid.cs" />
     <Compile Include="Assets\~Minesweeper\Scripts\Tile.cs" />
+    <Compile Include="Assets\~NonMannyLesson\Scripts\detect.cs" />
+    <Compile Include="Assets\~NonMannyLesson\Scripts\interact.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tiled2Unity\Imported\Level_01.tiled2unity.xml" />

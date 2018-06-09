@@ -9,28 +9,31 @@ clean code = CTRL + K + D
 Fold code =  CTRL + M + O
 Unfold code = CTRL + M + P
 */
-public class Player : MonoBehaviour
+namespace GoneHome
 {
-    public string message = "hello world";
-    public Rigidbody rigid;
-
-    float speed = 5;
-
-
-    // Use this for initialization
-    void Start()
+    public class Player : MonoBehaviour
     {
-        
-    }
+        public string message = "hello world";
+        public Rigidbody rigid;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
+        float speed = 5;
+
+
+        // Use this for initialization
+        void Start()
         {
-            rigid.AddForce(Vector3.forward * speed);
-        }
-            
-    }
 
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                rigid.AddForce(Vector3.forward * speed);
+            }
+
+        }
+
+    }
 }
