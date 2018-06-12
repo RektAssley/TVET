@@ -9,7 +9,7 @@ namespace BobsMarvellousAdventure
     {
         public float bobspeed; //Player speed
         public Vector2 jumpHeight; //jump height
-        public float maxSpeed;
+        public float maxSpeed = 5;
         private Rigidbody2D rb2d;
 
         private void Start()
@@ -25,13 +25,14 @@ namespace BobsMarvellousAdventure
             {
                 rb2d.AddForce(jumpHeight, ForceMode2D.Impulse);
             }
+
+            Vector3 force = Vector3.right * Input.GetAxis("Horizontal") * maxSpeed;
+            rb2d.AddForce(force);
+
         }
 
         private void FixedUpdate()
         {
-            this.transform.Translate(Input.GetAxis("Horizontal"), 0, 0);
-
-            rb2d.velocity = Vector2.ClampMagnitude(rb2d.velocity.magnitude, maxSpeed);
         }
 
     }

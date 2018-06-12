@@ -93,10 +93,14 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
+    <Compile Include="Assets\~2dExampleGame\Scripts\Bob.cs" />
+    <Compile Include="Assets\~Assessments\Assessment1\Scripts\Bob.cs" />
+    <Compile Include="Assets\~Assessments\Assessment1\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\~Assessments\Assessment1\Scripts\End.cs" />
+    <Compile Include="Assets\~Assessments\Assessment1\Scripts\Finish.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Shooting.cs" />
-    <Compile Include="Assets\~BobsMarvellousAdventure\Scripts\Bob.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Ball.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Helpers\KeepWithinScreen.cs" />
     <Compile Include="Assets\~Breakout\Scripts\Paddle.cs" />
