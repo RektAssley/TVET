@@ -12,28 +12,45 @@ namespace BobsMarvellousAdventure
         public float maxSpeed = 5;
         private Rigidbody2D rb2d;
 
+        private bool isGrounded = false;
+
         private void Start()
         {
             //reference to rigidbody2d
             rb2d = GetComponent<Rigidbody2D>();
-           
+
         }
 
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+            if (isGrounded == true)
             {
-                rb2d.AddForce(jumpHeight, ForceMode2D.Impulse);
+                if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+                {
+                    rb2d.AddForce(jumpHeight, ForceMode2D.Impulse);
+                }
             }
 
             Vector3 force = Vector3.right * Input.GetAxis("Horizontal") * maxSpeed;
             rb2d.AddForce(force);
 
         }
-
-        private void FixedUpdate()
+        void OnCollisionEnter2D (Collision2D collision)
         {
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                isGrounded = true;
+            }
         }
+        void OnCollisionExit2D (Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                isGrounded = false;
+            }
+        }
+
+
 
     }
 }

@@ -98,6 +98,7 @@
     <Compile Include="Assets\~Assessments\Assessment1\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\~Assessments\Assessment1\Scripts\End.cs" />
     <Compile Include="Assets\~Assessments\Assessment1\Scripts\Finish.cs" />
+    <Compile Include="Assets\~Assessments\Assessment1\Scripts\Music.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Shooting.cs" />
